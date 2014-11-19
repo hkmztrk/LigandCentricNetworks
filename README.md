@@ -3,7 +3,7 @@ LigandCentricNetworks
 -------------------------------------------------------------------------------------------------------------
 Content
 -----------
-Source code is written in C# and, contains a Visual Studio 2010 solution under the folder named 'Blactamase'. 
+Source code is written in C#, and contains a Visual Studio 2010 solution named 'LigandCentricNetworkModels '. 
 
 Blactamase includes:
 
@@ -15,7 +15,7 @@ NetworkConstruction.cs *creates similarity and identity networks*
 
 Node.cs *defines node*
 
-PDBInterface.cs *reads İNPUT file downloaded from PDB and prepares to use*
+PDBInterface.cs *reads input file provided as txt file and prepares for use*
 
 Program.cs
 
@@ -41,12 +41,14 @@ P0AD64	17O	c1c2n(nc1C3C(=CNC(=CS3)C(=O)O)C=O)CSC2
 
 ....
 
-After preaparing your file, "example.txt", you should place it under the folder "...\Blactamase\bin\Debug\Text\".
+After preaparing your file, "input.txt", you should place it under the folder "...\LigandCentricNetworkModels \bin\Debug\Text\".
 
 
-Finally, go to Blactamase.sln
+Finally, go to LigandCentricNetworkModels.sln, and change the following input parameter with the name of your input file:
+
+	string filenamePDB = "Text/PDB_complete.txt"; 
 
 
 --------------------------------------------------------------------------------------------------------------
-OUTPUT
+Output
 -------
