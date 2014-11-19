@@ -28,7 +28,7 @@ To use your own data, you should prepare it as the following input form in a tex
 	
 	ProteinID  LigandID   SMILES
 
-....
+	....
 
 i.e.,
 
@@ -39,7 +39,7 @@ i.e.,
 	
 	P0AD64	17O	c1c2n(nc1C3C(=CNC(=CS3)C(=O)O)C=O)CSC2
 
-....
+	....
 
 After preaparing your file, "input.txt", you should place it under the folder "...\LigandCentricNetworkModels \bin\Debug\Text\".
 
