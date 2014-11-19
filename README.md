@@ -7,17 +7,17 @@ Source code is written in C#, and contains a Visual Studio 2010 solution named '
 
 It includes:
 
-Edge.cs //defines edge property
+Edge.cs /*defines edge property*/
 
-ligand.cs //defines ligand
+ligand.cs /*defines ligand*/
 
-NetworkConstruction.cs //creates similarity and identity networks
+NetworkConstruction.cs /*creates similarity and identity networks*/
 
-Node.cs //defines node
+Node.cs /*defines node*/
 
-PDBInterface.cs //reads input file provided as txt file and prepares for use
+PDBInterface.cs /*reads input file provided as txt file and prepares for use*/
 
-Program.cs
+Program.cs /*main*/
 
 --------------------------------------------------------------------------------------------------------------
 Input
@@ -44,7 +44,7 @@ i.e.,
 After preaparing your file, "input.txt", you should place it under the folder "...\LigandCentricNetworkModels \bin\Debug\Text\".
 
 
-Finally, go to LigandCentricNetworkModels.sln, and change the following input parameter with the name of your input file:
+Finally, go to LigandCentricNetworkModels.sln, and change the following input parameter in "Program.cs" with the name of your input file:
 
 	string filenamePDB = "Text/PDB_complete.txt"; 
 
@@ -52,3 +52,18 @@ Finally, go to LigandCentricNetworkModels.sln, and change the following input pa
 --------------------------------------------------------------------------------------------------------------
 Output
 -------
+
+Outputs of the code are six different text files each containing a network, which are:
+
+1 ide_unw.txt unweighted identity
+- 
+2 ide_wei.txt  weighted identity
+- 
+3 ide_norm_wei.txt normalized weighted identity
+- 
+4 sim_unw.txt  unweighted similarity
+- 
+5 sim_wei.txt weighted similarity
+- 
+6 sim_norm_wei.txt normalized weighted similarity
+
