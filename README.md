@@ -19,6 +19,7 @@ INPUT
 To use your own data, you should prepare it as the following input form in a text file,
 
 ProteinID  LigandID   SMILES
+
 ProteinID  LigandID   SMILES
 ....
 i.e.,
