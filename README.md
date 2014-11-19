@@ -56,9 +56,14 @@ Output
 Outputs of the code are six different text files each containing a network, which are:
 
 1 ide_unw.txt unweighted identity
+
 2 ide_wei.txt  weighted identity
+
 3 ide_norm_wei.txt normalized weighted identity
+
 4 sim_unw.txt  unweighted similarity
+
 5 sim_wei.txt weighted similarity
+
 6 sim_norm_wei.txt normalized weighted similarity
 
