@@ -53,7 +53,7 @@ Finally, go to LigandCentricNetworkModels.sln, and change the following input pa
 Output
 -------
 
-Outputs of the code are six different text files each containing a network, which are:
+Outputs of the code are six different text files each containing a network table, w therefore they can be easily imported into Cytoscape.
 
 	1 "ide_unw.txt", unweighted identity
 	
@@ -66,8 +66,7 @@ Outputs of the code are six different text files each containing a network, whic
 	5 "sim_wei.txt", weighted similarity
 	
 	6 "sim_norm_wei.txt", normalized weighted similarity
-	
-Output files are in form of network tables, therefore they can be easily imported into Cytoscape.
+.
 -------------------------------------------------------------------------------------------------
 Note: Source code requires ChemAxon JChem package for .NET, in order to calculate similarity between ligands (http://www.chemaxon.com/download/jchem-suite/#jchemdotnet).
 
