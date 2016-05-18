@@ -72,6 +72,7 @@ Outputs of the code are six different text files each containing a network table
 	6 "sim_norm_wei.txt", normalized weighted similarity
 -------------------------------------------------------------------------------------------------
 Note: Source code requires ChemAxon JChem package for .NET, in order to calculate similarity between ligands (http://www.chemaxon.com/download/jchem-suite/#jchemdotnet).
-Jar file uses CDK (Chemistry Development Kit) to compute similarity.
+
+Jar file uses CDK (Chemistry Development Kit) to compute similarity. (https://github.com/cdk)
 
 
