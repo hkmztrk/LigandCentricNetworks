@@ -18,6 +18,9 @@ Node.cs /*defines node*/
 PDBInterface.cs /*reads input file provided as txt file and prepares for use*/
 
 Program.cs /*main*/
+-----------
+We also include a jar file to run the application from command line.
+       java -jar ligandCentNetwork.jar "yourinputfile.txt"
 
 --------------------------------------------------------------------------------------------------------------
 Input
@@ -68,5 +71,6 @@ Outputs of the code are six different text files each containing a network table
 	6 "sim_norm_wei.txt", normalized weighted similarity
 -------------------------------------------------------------------------------------------------
 Note: Source code requires ChemAxon JChem package for .NET, in order to calculate similarity between ligands (http://www.chemaxon.com/download/jchem-suite/#jchemdotnet).
+Jar file uses CDK (Chemistry Development Kit) to compute similarity.
 
 
