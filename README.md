@@ -18,8 +18,9 @@ Node.cs /*defines node*/
 PDBInterface.cs /*reads input file provided as txt file and prepares for use*/
 
 Program.cs /*main*/
------------
+
 We also include a jar file to run the application from command line.
+
        java -jar ligandCentNetwork.jar "yourinputfile.txt"
 
 --------------------------------------------------------------------------------------------------------------
