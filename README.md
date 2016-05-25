@@ -19,7 +19,7 @@ PDBInterface.cs /*reads input file provided as txt file and prepares for use*/
 
 Program.cs /*main*/
 
-We also include a jar file to run the application from command line.
+We also include a jar file to run the application from command line. Java 1.8+ is required to run the application.
 
        java -jar ligandCentNetwork.jar "yourinputfile.txt"
 
