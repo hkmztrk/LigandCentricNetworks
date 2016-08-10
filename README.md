@@ -21,7 +21,7 @@ Program.cs /*main*/
 
 We also include a jar file to run the application from command line. Java 1.8+ is required to run the application.
 
-       java -jar ligandCentNetwork.jar "yourinputfile.txt"
+       java -jar ligandcentnetworkv1.jar "yourinputfile.txt"
 
 --------------------------------------------------------------------------------------------------------------
 Input
