@@ -23,6 +23,10 @@ We also include a jar file to run the application from command line. Java 1.8+ i
 
        java -jar ligandcentnetworkv1.jar "yourinputfile.txt"
 
+A new version for jar file is also included. In this version you can choose a ligand similarity function, among (1) CDK's own similarity and (2) Lingo-based smiles-centric similarity function. 
+
+       java -jar ligandcentnetworkv2.jar "yourinputfile.txt" 2
+
 --------------------------------------------------------------------------------------------------------------
 Input
 --------
